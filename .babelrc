@@ -1,0 +1,13 @@
+{
+    "presets": [
+        // JestがESモジュールを扱えるようにする
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
+    ]
+}
